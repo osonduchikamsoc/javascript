@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let names ='chikamso'.split('');
+        console.log(names)
+
+ 
+        let arr=[ 'john mike', 'ken leo' , 'chika mso'];
+        // let jm=arr[0].split(' ').map((ele)=>ele[0]).join('')
+        let jm=arr.map(e=> e.split(' ').map((ele)=>ele[0]).join(''))
+        console.log(jm);
+        
+
+    //    let users = arr.map((ele)=>ele)
+    //     // jm.map((value)=>value[0]);
+    //     console.log(users);
+    
+let A=['Chika odi','chibu ike','chi oma'];
+// let B=A[0].split(' ')
+let B=A.map(e=>e.split(' ').map( (ele)=>ele[0]).join(''))
+console.log(B);
+
+
+
+arr = [ 'john mike', 'ken leo', 'chi kamso']
+let name = arr.map ((elem)=> elem.split(' ') .map( (elems)=>elems[0]).join('') )
+console.log(name);  
+
+
+
+</script>
+</body>
+</html>    
